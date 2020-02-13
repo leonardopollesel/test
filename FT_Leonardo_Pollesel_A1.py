@@ -12,11 +12,11 @@ def sincos():
     plt.plot(x, y, x, z)
     plt.title("One period of cos and sin")
     plt.legend(["sin(x)", "cos(x)"])
-    plt.savefig("sincos.gif")
+    plt.savefig("sincos.jpg")
     return f"""
     <html>
     <body>
-    <img src="sincos.gif">
+    <img src="sincos.jpg">
     </body>
     </html>
     """
