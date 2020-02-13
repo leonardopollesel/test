@@ -15,12 +15,11 @@ def sincos():
     plt.legend(["sin(x)", "cos(x)"])
     return plt.savefig("sincos.png")
 
-
 def show_fig():
     return f"""
     <html>
     <body>
-    <h1> <img src="sincos.png"> </h1>
+    <img src="sincos.png">
     </body>
     </html>
     """
