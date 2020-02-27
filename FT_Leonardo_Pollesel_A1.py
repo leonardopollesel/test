@@ -16,7 +16,7 @@ def sincos():
     return f"""
     <html>
     <body>
-        <img src="/root/test1/sincos.png" align="center">
+        <img src="/home/ec2-user/test/sincos.png" align="center">
     </body>
     </html>
     """
