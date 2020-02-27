@@ -13,7 +13,7 @@ def sincos():
     plt.title("One period of cos and sin")
     plt.legend(["sin(x)", "cos(x)"])
     plt.savefig("/home/ec2-user/test/sincos.png")
-    return print("Plot generated")
+    return "Plot generated"
 
 @app.route("/plot", methods=["GET", "POST"])
 def show():
